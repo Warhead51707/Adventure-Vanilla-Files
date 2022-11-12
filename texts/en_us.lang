@@ -1,0 +1,27 @@
+# This is a comment. For \n do $n instead.
+
+# Image Links
+image.start=https://media.discordapp.net/attachments/932923155662647306/953767597298581554/unknown.png?width=554&height=554
+image.old_adventure=https://media.discordapp.net/attachments/1006010834310402068/1040900476570443876/profile.png?width=671&height=671
+image.magnus=https://media.discordapp.net/attachments/1006010834310402068/1040810862874738739/magnus_dialogue.png?width=671&height=671
+
+# Errors
+error.user.exists=You already have an account registered.
+
+# Quests
+
+# Basic Quest Lang
+quest.started.title=Quest Started!
+
+# Quest ID Lang
+quest.tutorial.name=Tutorial
+quest.tutorial.description=Welcome to Adventure! Do the basics with Magnus.
+
+# Embeds
+
+# - Start
+embed.start.title=Welcome to Adventure!
+
+# Tutorial / Magus Dialogue
+embed.tutorial.start.title=Wake Up
+embed.tutorial.start.description=We made it.$n$nCome on. Get up.

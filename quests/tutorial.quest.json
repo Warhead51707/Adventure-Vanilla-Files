@@ -1,0 +1,26 @@
+{
+    "description": {
+        "identifier": "tutorial",
+        "script": "../quests/tutorial.js"
+    },
+    "trackers": [{
+        "identifier": "killedStrayGoblins",
+        "condition": "currentQuest.step === 0",
+        "data": {
+            "type": "enemyKilled",
+            "value": [
+                "stray_goblin"
+            ]
+        },
+        "values": {
+            "start": 0,
+            "needs": 1
+        }
+    }],
+    "components": {
+        "rewards": {
+            "table": "quests/tutorial.json"
+        },
+        "channel_tracker": {}
+    }
+}
