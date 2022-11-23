@@ -1,0 +1,8 @@
+{
+    "pools": [{
+        "coins": -5,
+        "entries": [{
+            "type": "none"
+        }]
+    }]
+}

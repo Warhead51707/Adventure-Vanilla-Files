@@ -1,0 +1,19 @@
+{
+    "description": {
+        "identifier": "steel_sword",
+        "type": {
+            "base": {
+                "type": "weapon",
+                "sub": "melee"
+            },
+            "damage": "neutral"
+        }
+    },
+    "components": {
+        "stackable": false,
+        "damage": {
+            "min": 10,
+            "max": 14
+        }
+    }
+}

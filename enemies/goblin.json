@@ -1,0 +1,68 @@
+{
+    "description": {
+        "identifier": "goblin",
+        "weaknesses": [
+            "fire"
+        ],
+        "strengths": [
+            "poison"
+        ]
+    },
+    "components": {
+        "health": {
+            "max": 75,
+            "value": 75
+        },
+        "weak_percentage": 25,
+        "goals": {
+            "pools": [{
+                "condition": "!currentEnemy.weak",
+                "trackers": [{
+                    "condition": "currentAdventure.coins >= 5",
+                    "identifier": "give_gold",
+                    "visible": true,
+                    "loot_table": "enemies/goblin/goals/give_gold.json"
+                }]
+            }]
+        },
+        "dodge": {
+            "chance": 35,
+            "decay": {
+                "min": 5,
+                "max": 8
+            }
+        },
+        "equipment": "equipment/goblin.json",
+        "moveset": "goblin",
+        "loot_table": "enemies/goblin/goblin.json"
+    },
+    "dialogue": {
+        "default_icon": "image.goblin_dialogue",
+        "pools": [{
+                "condition": "!currentEnemy.weak",
+                "dialogues": [{
+                        "priority": 0,
+                        "text": "blocks_way"
+                    },
+                    {
+                        "priority": 0,
+                        "text": "readies_weapon"
+                    },
+                    {
+                        "priority": 0,
+                        "condition": "currentEnemy.valid_goals.give_gold",
+                        "type": "special",
+                        "text": "wants_gold"
+                    }
+                ]
+            },
+            {
+                "condition": "currentEnemy.weak",
+                "dialogues": [{
+                    "priority": 0,
+                    "text": "stands_tall"
+                }]
+            }
+        ]
+    }
+}

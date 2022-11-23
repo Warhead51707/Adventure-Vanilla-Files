@@ -1,0 +1,75 @@
+{
+    "description": {
+        "identifier": "goblin"
+    },
+    "pools": [{
+            "condition": "currentEnemy.item === 'none'",
+            "turns_till_reset": 2,
+            "moves": [{
+                    "identifier": "headbutt",
+                    "crit_chance": 20,
+                    "call_order": [{
+                            "turn": 1,
+                            "weight": 50
+                        },
+                        {
+                            "turn": 2,
+                            "weight": 50
+                        }
+                    ],
+                    "damage": {
+                        "type": "neutral",
+                        "values": {
+                            "min": 8,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "identifier": "punch",
+                    "crit_chance": 15,
+                    "call_order": [{
+                            "turn": 1,
+                            "weight": 50
+                        },
+                        {
+                            "turn": 2,
+                            "weight": 50
+                        }
+                    ],
+                    "damage": {
+                        "type": "neutral",
+                        "values": {
+                            "min": 5,
+                            "max": 9
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "currentEnemy.item !== 'none'",
+            "turns_till_reset": 2,
+            "moves": [{
+                "identifier": "weapon_bash",
+                "crit_chance": 35,
+                "call_order": [{
+                        "turn": 1,
+                        "weight": 30
+                    },
+                    {
+                        "turn": 2,
+                        "weight": 50
+                    }
+                ],
+                "damage": {
+                    "type": "neutral",
+                    "values": {
+                        "min": 5,
+                        "max": 9
+                    }
+                }
+            }]
+        }
+    ]
+}

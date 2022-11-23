@@ -8,6 +8,24 @@ image.magnus=https://media.discordapp.net/attachments/1006010834310402068/104081
 # Errors
 error.user.exists=You already have an account registered.
 
+
+# Enemies
+
+# Goblin
+enemy.goblin.name=Goblin
+enemy.goblin.goals.give_gold=Give Gold
+enemy.goblin.moveset.headbutt=Headbutt
+enemy.goblin.moveset.punch=Punch
+enemy.goblin.moveset.weapon_bash=Weapon Bash
+enemy.goblin.dialogue.blocks_way=Goblin blocks the way!
+enemy.goblin.dialogue.readies_weapon=Goblin readies their weapon!
+enemy.goblin.dialogue.wants_gold=Goblin wants the gold in your pockets.
+enemy.goblin.dialogue.stands_tall=Goblin stands tall through the pain.
+
+# Items
+item.steel_sword.name=Steel Sword
+item.steel_sword.description=Forged from the finest human blacksmiths. 
+
 # Quests
 
 # Basic Quest Lang
@@ -18,6 +36,7 @@ quest.tutorial.name=Tutorial
 quest.tutorial.description=Welcome to Adventure! Do the basics with Magnus.
 
 # Embeds
+embed.next_footer=Press 'Next' to Continue
 
 # - Start
 embed.start.title=Welcome to Adventure!
@@ -25,3 +44,8 @@ embed.start.title=Welcome to Adventure!
 # Tutorial / Magus Dialogue
 embed.tutorial.start.title=Wake Up
 embed.tutorial.start.description=We made it.$n$nCome on. Get up.
+
+# Buttons
+button.next=Next
+
+# Tutorial

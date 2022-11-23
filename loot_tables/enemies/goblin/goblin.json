@@ -1,0 +1,12 @@
+{
+    "pools": [{
+        "coins": {
+            "min": 10,
+            "max": 12
+        },
+        "entries": [{
+            "type": "item",
+            "identifier": "steel_sword"
+        }]
+    }]
+}
