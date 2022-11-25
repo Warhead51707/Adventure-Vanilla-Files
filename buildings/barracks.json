@@ -1,0 +1,10 @@
+{
+    "description": {
+        "identifier": "barracks",
+        "location": "barracks.js"
+    },
+    "components": {
+        "cost": 10,
+        "required_build_slots": 1
+    }
+}

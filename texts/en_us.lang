@@ -4,10 +4,22 @@
 image.start=https://media.discordapp.net/attachments/932923155662647306/953767597298581554/unknown.png?width=554&height=554
 image.old_adventure=https://media.discordapp.net/attachments/1006010834310402068/1040900476570443876/profile.png?width=671&height=671
 image.magnus=https://media.discordapp.net/attachments/1006010834310402068/1040810862874738739/magnus_dialogue.png?width=671&height=671
+image.village=https://media.discordapp.net/attachments/1006010834310402068/1045400258919792750/village_2.png?width=554&height=554
 
 # Errors
 error.user.exists=You already have an account registered.
+error.user.noexist=You do not have an account registered. Please run /start to access this command.
 
+# Village
+village.title='s Village
+village.welcome=Welcome to your Village. Below, are all the statistics & specifics you need to know.
+village.statistics=Statistics
+
+village.level=Level
+village.current_population=Current Population
+village.population_needed=Population Needed to Lv Up
+village.coins=Coins
+village.total_buildings=Total Buildings
 
 # Enemies
 
