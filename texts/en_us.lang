@@ -1,3 +1,4 @@
+# Property of Warhead!
 # This is a comment. For \n do $n instead.
 
 # Image Links
@@ -5,10 +6,16 @@ image.start=https://media.discordapp.net/attachments/932923155662647306/95376759
 image.old_adventure=https://media.discordapp.net/attachments/1006010834310402068/1040900476570443876/profile.png?width=671&height=671
 image.magnus=https://media.discordapp.net/attachments/1006010834310402068/1040810862874738739/magnus_dialogue.png?width=671&height=671
 image.village=https://media.discordapp.net/attachments/1006010834310402068/1045400258919792750/village_2.png?width=554&height=554
+image.village.build=https://media.discordapp.net/attachments/1006010834310402068/1046292824469012590/build.png?width=554&height=554
 
 # Errors
 error.user.exists=You already have an account registered.
 error.user.noexist=You do not have an account registered. Please run /start to access this command.
+error.village.find_building=Could not find data associated with this building. If you think this is a critical problem with your experience, please run the /report command to get help.
+error.village.not_enough=You do not have enough resources (coins/tokens/materials) to build this building. 
+error.dropdown.none=None
+error.dropdown.none.description=None
+error.collector.failed=Failed to handle component collection. If you think this is a critical problem with your experience, please run the /report command to get help.
 
 # Village
 village.title='s Village
@@ -20,6 +27,27 @@ village.current_population=Current Population
 village.population_needed=Population Needed to Lv Up
 village.coins=Coins
 village.total_buildings=Total Buildings
+
+village.dropdown.buildings=Select a Building..
+village.button.build=Build..
+village.dropdown.build=Build a Building..
+
+village.embed.build.title=Build Hub!
+village.embed.build.description=Welcome to your Village's Build Hub! Here, you can spend **Build Tokens** & **Materials** such as wood and coins to build buildings for you Village.$n$nEach time you level-up, you earn Build Tokens which allows you to build a building. You also earn **Building Blueprints** which unlock the ability to build the unlocked building.
+village.embed.build.fields.statistics=Statistics
+
+village.embed.build_building_confirmation.title=Build Confirmation
+village.embed.build_building_confirmation.fields.cost=Cost
+village.button.yes=Yes
+village.button.no=No
+
+village.embed.build_building.title=Built!
+
+# Buildings
+building.barracks.name=Barracks
+building.barracks.emoji=⚔️
+building.barracks.short_description=Manage your Team & Inventory.
+building.barracks.description=Coins: 10, Tokens: 1
 
 # Enemies
 
@@ -59,5 +87,6 @@ embed.tutorial.start.description=We made it.$n$nCome on. Get up.
 
 # Buttons
 button.next=Next
+button.back=Back
 
 # Tutorial
